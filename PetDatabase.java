@@ -30,14 +30,12 @@ public class PetDatabase
                 case 2:
                     addPets();
                     break;
-                /*
                 case 3:
                     updatePet();
                     break;
                 case 4:
                     removePet();
                     break;
-                 */
                 case 5:
                     searchPetsByName();
                     break;
@@ -115,7 +113,6 @@ public class PetDatabase
         printTableFooter(petCount);
     }
 
-    /*
     private static void updatePet()
     {
         String originalName;
@@ -162,8 +159,7 @@ public class PetDatabase
         }
         petCount--;
     }
-    */
-    
+
     private static void searchPetsByName()
     {
         int nameSearchPetCount = 0;
