@@ -37,13 +37,13 @@ public class PetDatabase
                 case 4:
                     removePet();
                     break;
+                 */
                 case 5:
                     searchPetsByName();
                     break;
                 case 6:
                     searchPetsByAge();
                     break;
-                 */
                 case 7:
                     System.out.println("Goodbye!");
                     running = false;
@@ -162,7 +162,8 @@ public class PetDatabase
         }
         petCount--;
     }
-
+    */
+    
     private static void searchPetsByName()
     {
         int nameSearchPetCount = 0;
@@ -207,7 +208,6 @@ public class PetDatabase
 //print table footer with ageSearchPetCount parameter
         printTableFooter(ageSearchPetCount);
     }
-    */
 
     private static void printTableHeader()
     {
